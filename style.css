@@ -1,0 +1,63 @@
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.10);
+    
+}
+.img{
+    width: 430px;
+    
+}
+.banner-content{
+    max-width:50%;
+padding-bottom: 100px;
+padding-top: 100px;
+}
+    
+.banner-title{
+    color: #272727;
+font-size: 55px;
+margin-bottom: 0;
+
+    }
+.banner-desc{
+        color: rgba(39, 39, 39, 0.60);
+        font-size: 14px;
+        line-height:22px;
+        max-width: 80%;
+    
+    }
+.img-wrapper{
+        width: 50%;
+        align-self: flex-end;
+        }
+.btn{
+    padding: 10px 30px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+
+}
+.hot-deal{
+    padding-left: 200px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+text-align: center;
+gap: 100px;
+align-items: center;
+    }
+    .img-2{
+        width: 200px;
+       height: 300px;
+    
+
+    }
+    .banner-desc-center{
+        color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+    }
