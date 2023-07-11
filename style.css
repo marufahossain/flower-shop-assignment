@@ -44,11 +44,14 @@ margin-bottom: 0;
         align-self: flex-end;
         }
 .btn{
-    padding: 10px 30px;
+    padding: 15px 25px;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
     border: none;
+    color: white;
+    line-height: 15px;
+    height:45px;
 
 }
 .hot-deal{
@@ -173,19 +176,27 @@ padding-bottom: 60px;
         width:60px;
     }
     .insta{
-        
         text-align: center;
-    
         
+        max-width: 48%;
+        margin: auto;
+    }
+    .info-desc{
+        color:#27272799 ;
+    }
+    .insta-info {
+        padding-top: 90px;
+        padding-bottom: 30px;
+       
     }
     .flower-png{
         display: flex;
         gap: 10px;
+        margin-top: 30px;
     
     }
     .img-png{
-        width: 300px;
-        height: 200px;
+        width: 25%;
     }
 
     .deal-section { 
@@ -198,6 +209,17 @@ padding-bottom: 60px;
     padding-top: 100px;
     padding-bottom: 100px;
     
+    }
+    .deals-title{
+font-size: 30px;
+    }
+    .input { 
+        width: 50%;
+        height: 45px;
+        background-color: #fff;
+        border-radius: 8px;
+        border: none;
+        padding-left: 20px;
     }
     .shop-title{
         color: #E55473;
@@ -217,3 +239,4 @@ padding-bottom: 60px;
         padding-top:60px;
         padding-bottom: 40px;  
     }
+    
