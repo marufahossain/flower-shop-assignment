@@ -253,16 +253,28 @@ font-size: 30px;
     .bonus{
         padding-top: 60px;
         padding-bottom: 60px;
+        background-color: #0597A026;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     .flex-bonus {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 30px;
     }
     .bonus-wrapper{
         max-width: 50%;
+        display: flex;
+        gap: 30px;
+        align-items: center;
     }
     .bonus-flex-2{
+        display: flex;
         justify-content: center;
         width: 100%;
+    }
+    .bonus-img {
+        width: 150px;
+        border-radius: 100%;
     }
