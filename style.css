@@ -30,6 +30,7 @@ padding-top: 100px;
     color: #272727;
 font-size: 55px;
 margin-bottom: 0;
+font-weight: 800;
 
     }
 .banner-desc{
@@ -248,4 +249,20 @@ font-size: 30px;
         color: #FFFFFF66;
         font-size: 13px;
     }
-    
+
+    .bonus{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .flex-bonus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bonus-wrapper{
+        max-width: 50%;
+    }
+    .bonus-flex-2{
+        justify-content: center;
+        width: 100%;
+    }
